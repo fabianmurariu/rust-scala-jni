@@ -1,0 +1,7 @@
+target
+.ccls-cache
+Cargo.lock
+.bloop
+.bsp
+.metals
+metals.sbt

@@ -1,0 +1,16 @@
+[package]
+name = "sparse_mat"
+version = "0.1.0"
+authors = ["Fabian Murariu <murariu.fabian@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jni = "0.19.0"
+
+[lib]
+crate_type = ["cdylib"]
+
+[build-dependencies]
+bindgen = "0.53.1"
